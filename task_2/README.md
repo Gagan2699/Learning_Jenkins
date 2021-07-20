@@ -1,3 +1,9 @@
-The pipeline is created during acloudguru course. 
-The pipeline uses a docker agent with 5 steps altogether. The pipeline is used to add git in the prep stage which will be followed by cloning the main repository.
-The main code is from the linux academy repository. The execute and install stages are now accompanied by post actions.
+# Learning Jenkins
+
+### task_2
+
+This example pipeline was completed as a task under an acloudguru course- __Jenkins Pipelines__ . The pipline  sets the agent as base image from docker pyhon:alpine. SCM is taken care by cloning from github (course files under linux academy). The requirements are installed and build is completed consequently. Post actions demonstrate message of completing the task and artifacts archieved.
+
+ ###### The artifacts are of .jpg extension and thus are archieved under post-actions.
+ 
+ 
